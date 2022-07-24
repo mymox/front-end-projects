@@ -12,7 +12,7 @@ the challenge was making a dummy sticky notes app with Javascript
 2. No saved notes
 
 *screenshot*
-![screencapture.png]
+![screencapture.png](screencapture.png)
 
 ## What I learned
 
