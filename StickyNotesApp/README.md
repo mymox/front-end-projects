@@ -10,9 +10,13 @@ the challenge was making a dummy sticky notes app with Javascript
 
 1. No user login
 2. No saved notes
+3. Adding buttones for deleting and editing notes
 
 *screenshot*
 ![screencapture.png](screencapture.png)
+
+*preview*
+https://brilliant-douhua-7003a4.netlify.app/
 
 ## What I learned
 
