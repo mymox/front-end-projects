@@ -30,6 +30,9 @@ in this challenge i learned more about javascript and adding some manipulations 
 
 In the next projects i'll focus more on adding different features to my apps , like user login , drag and drop ... and i'll start react js , vanilla js or next js.
 
+##preview
+[Preview](https://lighthearted-kitsune-646c4e.netlify.app/)
+
 ## Author
 [MOHAMMED ZAYDAN](https://www.linkedin.com/in/mohammed-zaydan/)
 
