@@ -1,4 +1,4 @@
-# Sticky notes app
+# food ordering website
 
 ## Welcome! 👋
 
