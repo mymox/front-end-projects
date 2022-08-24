@@ -16,7 +16,7 @@ the challenge was making a products management app with Javascript
 ![screencapture.png](screencapture.png)
 
 *preview*
-https://brilliant-douhua-7003a4.netlify.app/
+https://tourmaline-chaja-e4ea6f.netlify.app/
 
 
 
