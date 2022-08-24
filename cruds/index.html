@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+  
+    <main class="cruds">
+        <div class="head">
+            <h2>cruds project</h2>
+            <p>product managment system</p>
+        </div>
+
+        <div class="inputs">
+            <input type="text" id="title" placeholder="title">
+            <div class="price">
+                <input onkeyup="getTotal()" type="number" id="price" placeholder="price">
+                <input onkeyup="getTotal()"type="number" id="taxes" placeholder="taxes">
+                <input onkeyup="getTotal()"type="number" id="ads" placeholder="ads">
+                <input onkeyup="getTotal()"type="number" id="discount" placeholder="dicount">
+                <small onkeyup="getTotal()"id="total"></small>
+            </div>
+            <input type="number" id="count" placeholder="count">
+            <input type="text" id="category" placeholder="category">
+            <button id="submit">creat</button>
+
+
+        </div>
+
+        <div class="outputs">
+            <div class="search">
+                <input type="search" id="search" onkeyup="searchData(this.value)">
+                <div class="btnsearch">
+                    <button onclick="getSearchMode(this.id)" id="search-title">search bu title</button>
+                    <button onclick="getSearchMode(this.id)" id="search-categpry">search bu category</button>
+                </div>
+            </div>
+            <div id="deleteAll">
+
+            </div>
+
+            <table>
+                <tr>
+                    <th>id</th>
+                    <th>title</th>
+                    <th>price</th>
+                    <th>taxes</th>
+                    <th>ads</th>
+                    <th>discount</th>
+                    <th>total</th>
+                    <th>category</th>
+                    <th>update</th>
+                    <th>delete</th>
+                </tr>
+                <tbody id="tbody">
+                 
+                </tbody>
+            </table>
+        </div>
+        
+    </main>
+    <footer>
+        <p> Credits: <a href="https://www.linkedin.com/in/mohammed-zaydan/"> Mohammed Zaydan</a></p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
