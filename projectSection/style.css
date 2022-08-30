@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: poppins;
+}
+h1{
+    text-align: center;
+    margin: 2rem auto;
+    color: rgb(226, 21, 21);
+    user-select: none;
+}
+.project-filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(237, 237, 237, 0.6);
+    border-radius: .3rem;
+    flex-wrap: wrap;
+    margin: 20px;
+    list-style: none;
+}
+
+.project-filter li{
+    margin: 10px;
+    padding: 5px 20px;
+    color: #9b9b9b;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    cursor: pointer;
+    user-select: none;
+    border-radius: .2rem;
+}
+
+.project-filter-active{
+    background-color: #e4e4e4;
+}
+
+.container{
+    max-width: 1280px;
+    min-height: 500px;
+    background-color: #fff;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.container .box{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: aliceblue;
+    margin: 10px auto;
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid grey;
+    padding: .3rem;
+    border-radius: .3rem;
+}
+
+
+.container .box .imgBox{
+    position: relative;
+    overflow: hidden;
+}
+
+
+.container .box .imgBox img{
+    max-width: 100%;
+    transition: transform 2s;
+    border-radius: .2rem;
+   
+    
+}
+
+.container .box:hover .imgBox img{
+    transform: scale(1.2);
+    
+}
+
+.container .box .details{
+    position: absolute;
+    top: 300px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgb(78, 184, 225);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: top .7s , opacity .5s;
+    cursor: pointer;
+}
+
+
+.container .box .details h3{
+    color:rgb(226, 21, 21) ;
+}
+
+
+.container .box .details p{
+    color: #fff;
+}
+
+.container .box .details .icons{
+   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+
+.container .box .details .icons a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+.container .box:hover .details{
+    top: 10px;
+    opacity: .8;
+}
